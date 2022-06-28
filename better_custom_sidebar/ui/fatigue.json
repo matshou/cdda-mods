@@ -6,7 +6,7 @@
     "clauses": [
       {
         "id": "tired",
-        "text": "Tired",
+        "text": "medium",
         "color": "yellow",
         "condition": {
           "and": [
@@ -17,7 +17,7 @@
       },
       {
         "id": "dead_tired",
-        "text": "Dead Tired",
+        "text": "high",
         "color": "light_red",
         "condition": {
           "and": [
@@ -28,7 +28,7 @@
       },
       {
         "id": "exhausted",
-        "text": "Exhausted",
+        "text": "extreme",
         "color": "red",
         "condition": { "compare_int": [ { "u_val": "fatigue" }, ">", { "const": 575 } ] }
       }
@@ -37,7 +37,7 @@
   {
     "id": "fatigue_desc_label",
     "type": "widget",
-    "label": "Rest",
+    "label": "Fatigue",
     "style": "text",
     "copy-from": "fatigue_desc_template"
   }
