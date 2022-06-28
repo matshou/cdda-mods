@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "cdda_tweaks",
+    "name": "Dark Days Ahead: Tweaks",
+    "authors": [ "matshou" ],
+    "description": "Changes item recipes and other stuff.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]
