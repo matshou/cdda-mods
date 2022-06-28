@@ -32,7 +32,16 @@
         [ "knife_paring", 1 ],
         [ "fork", 1 ]
       ],
-      [ [ "wire", 1 ], [ "hairpin", 1 ], [ "cable", 1 ] ]
+      [
+        [ "wire", 1 ],
+        [ "hairpin", 1 ],
+        [ "fc_hairpin", 1 ],
+        [ "copper_hairpin", 1 ],
+        [ "platinum_hairpin", 1 ],
+        [ "gold_hairpin", 1 ],
+        [ "silver_hairpin", 1 ],
+        [ "cable", 1 ]
+      ]
     ]
   }
 ]
