@@ -5,29 +5,31 @@
     "style": "layout",
     "label": "Movement",
     "arrange": "rows",
-    "widgets": [ "move_count_cost_layout", "move_mode_speed_layout" ]
+    "widgets": [ "move_count_cost_layout", "move_mode_speed_layout", "vehicle_cruise_fuel_layout" ]
   },
   {
-    "id": "needs_desc_layout_label",
+    "id": "exertion_layout",
+    "type": "widget",
+    "style": "layout",
+    "label": "Exertion",
+    "arrange": "rows",
+    "widgets": [ "stamina_graph", "fatigue_desc_label", "weariness_desc", "activity_desc" ]
+  },
+  {
+    "id": "needs_desc_layout",
     "type": "widget",
     "style": "layout",
     "label": "Needs",
     "arrange": "rows",
-    "widgets": [
-      "hunger_desc_label",
-      "thirst_desc_label",
-      "weight_desc_label",
-      "fatigue_desc_label",
-      "pain_desc_label",
-      "body_temp_desc_label"
-    ]
+    "widgets": [ "hunger_desc_label", "thirst_desc_label" ]
+  },
   {
     "id": "status_desc_layout",
     "type": "widget",
     "style": "layout",
     "label": "Status",
     "arrange": "rows",
-    "widgets": [ "mood_desc_label", "focus_num", "pain_desc", "body_temp_desc", "rad_badge_desc" ]
+    "widgets": [ "mood_desc_label", "focus_num", "pain_desc_label", "body_temp_desc", "rad_badge_desc" ]
   },
   {
     "id": "environment_layout",
