@@ -28,7 +28,7 @@
   {
     "id": "move_num",
     "type": "widget",
-    "label": "Move count",
+    "label": "Moved",
     "var": "move",
     "style": "number"
   }
