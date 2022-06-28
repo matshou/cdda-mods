@@ -16,6 +16,7 @@
       {
         "max_contains_volume": "2 L",
         "max_contains_weight": "2 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -39,6 +40,7 @@
       {
         "max_contains_volume": "2 L",
         "max_contains_weight": "2 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -63,6 +65,7 @@
       {
         "max_contains_volume": "2 L",
         "max_contains_weight": "2 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -86,6 +89,7 @@
       {
         "max_contains_volume": "12 L",
         "max_contains_weight": "12 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -111,6 +115,7 @@
       {
         "max_contains_volume": "25 L",
         "max_contains_weight": "25 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -139,6 +144,7 @@
       {
         "max_contains_volume": "25 L",
         "max_contains_weight": "25 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -168,6 +174,7 @@
       {
         "max_contains_volume": "1 L",
         "max_contains_weight": "1 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -197,6 +204,7 @@
       {
         "max_contains_volume": "1 L",
         "max_contains_weight": "1 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "open_container": true,
         "rigid": true
@@ -223,6 +231,7 @@
       {
         "max_contains_volume": "12 L",
         "max_contains_weight": "12 kg",
+        "spoil_multiplier": 0.8,
         "watertight": true,
         "rigid": true,
         "open_container": true
