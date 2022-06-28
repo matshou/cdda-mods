@@ -37,7 +37,7 @@
     "price": 24000,
     "price_postapoc": 250,
     "use_action": [ "RADIOCAR" ],
-    "flags": [ "RADIO_CONTAINER", "WATER_BREAK" ],
+    "flags": [ "RADIO_CONTAINER", "WATER_BREAK", "ALLOWS_REMOTE_USE" ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
