@@ -6,13 +6,11 @@
     "clauses": [
       {
         "id": "scorching",
-        "text": "Scorching!",
         "color": "red",
         "condition": { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 9500 } ] }
       },
       {
         "id": "very_hot",
-        "text": "Very hot!",
         "color": "light_red",
         "condition": {
           "and": [
@@ -23,7 +21,6 @@
       },
       {
         "id": "warm",
-        "text": "Warm",
         "color": "yellow",
         "condition": {
           "and": [
@@ -34,7 +31,6 @@
       },
       {
         "id": "comfortable",
-        "text": "Comfortable",
         "color": "green",
         "condition": {
           "and": [
@@ -45,7 +41,6 @@
       },
       {
         "id": "chilly",
-        "text": "Chilly",
         "color": "light_blue",
         "condition": {
           "and": [
@@ -56,7 +51,6 @@
       },
       {
         "id": "very_cold",
-        "text": "Very cold!",
         "color": "cyan",
         "condition": {
           "and": [
@@ -67,7 +61,6 @@
       },
       {
         "id": "freezing",
-        "text": "Freezing!",
         "color": "blue",
         "condition": { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 500 } ] }
       }

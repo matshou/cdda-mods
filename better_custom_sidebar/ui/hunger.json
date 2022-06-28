@@ -5,32 +5,32 @@
     "label": "Hunger",
     "style": "text",
     "clauses": [
-      { "id": "engorged", "text": "Engorged", "color": "red", "condition": { "u_has_effect": "hunger_engorged" } },
-      { "id": "full", "text": "Full", "color": "yellow", "condition": { "u_has_effect": "hunger_full" } },
+      { "id": "engorged", "text": "engorged", "color": "red", "condition": { "u_has_effect": "hunger_engorged" } },
+      { "id": "full", "text": "full", "color": "yellow", "condition": { "u_has_effect": "hunger_full" } },
       {
         "id": "satisfied",
-        "text": "Satisfied",
+        "text": "satisfied",
         "color": "green",
         "condition": { "u_has_effect": "hunger_satisfied" }
       },
       { "id": "blank", "text": "", "color": "white", "condition": { "u_has_effect": "hunger_blank" } },
-      { "id": "hungry", "text": "Hungry", "color": "yellow", "condition": { "u_has_effect": "hunger_hungry" } },
+      { "id": "hungry", "text": "hungry", "color": "yellow", "condition": { "u_has_effect": "hunger_hungry" } },
       {
         "id": "very_hungry",
-        "text": "Very hungry",
+        "text": "very hungry",
         "color": "yellow",
         "condition": { "u_has_effect": "hunger_very_hungry" }
       },
       {
         "id": "near_starving",
-        "text": "Near starving",
+        "text": "near starving",
         "color": "red",
         "condition": { "u_has_effect": "hunger_near_starving" }
       },
-      { "id": "starving", "text": "Starving!", "color": "red", "condition": { "u_has_effect": "hunger_starving" } },
+      { "id": "starving", "text": "starving!", "color": "red", "condition": { "u_has_effect": "hunger_starving" } },
       {
         "id": "famished",
-        "text": "Famished",
+        "text": "famished",
         "color": "light_red",
         "condition": { "u_has_effect": "hunger_famished" }
       }

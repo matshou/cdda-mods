@@ -7,13 +7,13 @@
     "clauses": [
       {
         "id": "parched",
-        "text": "Parched",
+        "text": "parched",
         "color": "light_red",
         "condition": { "compare_int": [ { "u_val": "thirst" }, ">", { "const": 520 } ] }
       },
       {
         "id": "dehydrated",
-        "text": "Dehydrated",
+        "text": "dehydrated",
         "color": "light_red",
         "condition": {
           "and": [
@@ -24,7 +24,7 @@
       },
       {
         "id": "very_thirsty",
-        "text": "Very thirsty",
+        "text": "very thirsty",
         "color": "yellow",
         "condition": {
           "and": [
@@ -35,7 +35,7 @@
       },
       {
         "id": "thirsty",
-        "text": "Thirsty",
+        "text": "thirsty",
         "color": "yellow",
         "condition": {
           "and": [
@@ -57,7 +57,7 @@
       },
       {
         "id": "slaked",
-        "text": "Slaked",
+        "text": "slaked",
         "color": "green",
         "condition": {
           "and": [
@@ -68,7 +68,7 @@
       },
       {
         "id": "hydrated",
-        "text": "Hydrated",
+        "text": "hydrated",
         "color": "green",
         "condition": {
           "and": [
@@ -79,7 +79,7 @@
       },
       {
         "id": "turgid",
-        "text": "Turgid",
+        "text": "turgid",
         "color": "green",
         "condition": { "compare_int": [ { "u_val": "thirst" }, "<", { "const": -60 } ] }
       }
