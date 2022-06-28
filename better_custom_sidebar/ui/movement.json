@@ -5,11 +5,11 @@
     "style": "clause",
     "default_clause": { "text": "bugging out", "sym": "-", "color": "dark_gray" },
     "clauses": [
-      { "id": "run", "text": "running", "sym": "R", "color": "red", "condition": { "u_has_move_mode": "run" } },
-      { "id": "walk", "text": "walking", "sym": "W", "color": "white", "condition": { "u_has_move_mode": "walk" } },
+      { "id": "run", "text": "run", "sym": "R", "color": "red", "condition": { "u_has_move_mode": "run" } },
+      { "id": "walk", "text": "walk", "sym": "W", "color": "white", "condition": { "u_has_move_mode": "walk" } },
       {
         "id": "crouch",
-        "text": "crouching",
+        "text": "crouch",
         "sym": "C",
         "color": "light_blue",
         "condition": { "u_has_move_mode": "crouch" }
