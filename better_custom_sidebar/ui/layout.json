@@ -21,5 +21,28 @@
       "pain_desc_label",
       "body_temp_desc_label"
     ]
+  {
+    "id": "status_desc_layout",
+    "type": "widget",
+    "style": "layout",
+    "label": "Status",
+    "arrange": "rows",
+    "widgets": [ "mood_desc_label", "focus_num", "pain_desc", "body_temp_desc", "rad_badge_desc" ]
+  },
+  {
+    "id": "environment_layout",
+    "type": "widget",
+    "label": "Environment",
+    "style": "layout",
+    "arrange": "rows",
+    "widgets": [ "lighting_desc", "env_temp_desc", "weather_desc", "wind_desc" ]
+  },
+  {
+    "id": "vehicle_cruise_fuel_layout",
+    "type": "widget",
+    "label": "Vehicle",
+    "style": "layout",
+    "arrange": "columns",
+    "widgets": [ "vehicle_cruise_desc_label", "vehicle_fuel_desc_label" ]
   }
 ]
