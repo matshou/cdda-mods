@@ -9,7 +9,7 @@
     "ammo": [ "battery" ],
     "flags": [ "WATER_BREAK" ],
     "charges_per_use": 1,
-    "turns_per_charge": 5,
+    "turns_per_charge": 100,
     "weight": "670 g",
     "volume": "500 ml",
     "price": 6000,
@@ -60,7 +60,7 @@
     "type": "TOOL",
     "name": { "str": "RC car (on)", "str_pl": "RC cars (on)" },
     "description": "This remote-controlled car is on, and draining its batteries just like a real electric car!  Use a remote control to drive it around.",
-    "turns_per_charge": 5,
+    "turns_per_charge": 40,
     "use_action": [ "RADIOCARON" ],
     "flags": [ "LIGHT_15", "RADIO_CONTAINER", "TRADER_AVOID", "RADIOCAR" ]
   }
