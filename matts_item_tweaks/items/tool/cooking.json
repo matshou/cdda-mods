@@ -15,7 +15,7 @@
     "symbol": ";",
     "color": "light_gray",
     "ammo": [ "battery" ],
-    "flags": [ "WATER_BREAK" ],
+    "flags": [ "WATER_BREAK", "ALLOWS_REMOTE_USE" ],
     "charges_per_use": 10,
     "qualities": [ [ "BOIL", 1 ] ],
     "use_action": [ "HOTPLATE" ],
