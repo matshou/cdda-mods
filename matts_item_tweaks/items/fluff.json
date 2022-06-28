@@ -1,0 +1,18 @@
+[
+  {
+    "id": "deck_of_cards",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "deck of cards", "str_pl": "decks of cards" },
+    "description": "A deck of 52 playing cards.",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "price": 2000,
+    "price_postapoc": 10,
+    "material": [ "cardboard" ],
+    "symbol": ",",
+    "color": "red",
+    "flags": [ "NO_REPAIR" ],
+    "use_action": [ "PLAY_GAME" ]
+  }
+]
