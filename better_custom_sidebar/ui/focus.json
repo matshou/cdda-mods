@@ -1,2 +1,61 @@
 [
+  {
+    "id": "focus_desc_template",
+    "type": "widget",
+    "style": "clause",
+    "clauses": [
+      {
+        "id": "focus_very_low",
+        "text": "very low",
+        "color": "red",
+        "condition": { "compare_int": [ { "u_val": "focus" }, "<", { "const": 50 } ] }
+      },
+      {
+        "id": "focus_low",
+        "text": "low",
+        "color": "light_red",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "focus" }, ">=", { "const": 50 } ] },
+            { "compare_int": [ { "u_val": "focus" }, "<", { "const": 90 } ] }
+          ]
+        }
+      },
+      {
+        "id": "focus_normal",
+        "text": "normal",
+        "color": "light_gray",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "focus" }, ">=", { "const": 90 } ] },
+            { "compare_int": [ { "u_val": "focus" }, "<=", { "const": 110 } ] }
+          ]
+        }
+      },
+      {
+        "id": "focus_high",
+        "text": "high",
+        "color": "light_green",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "focus" }, ">", { "const": 110 } ] },
+            { "compare_int": [ { "u_val": "focus" }, "<", { "const": 150 } ] }
+          ]
+        }
+      },
+      {
+        "id": "focus_very_high",
+        "text": "very_high",
+        "color": "green",
+        "condition": { "compare_int": [ { "u_val": "focus" }, ">=", { "const": 150 } ] }
+      }
+    ]
+  },
+  {
+    "id": "focus_desc",
+    "type": "widget",
+    "label": "Focus",
+    "style": "text",
+    "copy-from": "focus_desc_template"
+  }
 ]
