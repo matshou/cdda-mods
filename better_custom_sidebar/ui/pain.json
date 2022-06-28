@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pain_desc_label",
+    "type": "widget",
+    "label": "Pain",
+    "style": "text",
+    "var": "pain_text",
+    "//": "Uses display::pain_text_color"
+  }
+]

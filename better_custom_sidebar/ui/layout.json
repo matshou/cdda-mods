@@ -1,0 +1,25 @@
+[
+  {
+    "id": "movement_layout",
+    "type": "widget",
+    "style": "layout",
+    "label": "Movement",
+    "arrange": "rows",
+    "widgets": [ "move_count_cost_layout", "move_mode_speed_layout" ]
+  },
+  {
+    "id": "needs_desc_layout_label",
+    "type": "widget",
+    "style": "layout",
+    "label": "Needs",
+    "arrange": "rows",
+    "widgets": [
+      "hunger_desc_label",
+      "thirst_desc_label",
+      "weight_desc_label",
+      "fatigue_desc_label",
+      "pain_desc_label",
+      "body_temp_desc_label"
+    ]
+  }
+]
