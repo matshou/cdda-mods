@@ -16,6 +16,16 @@
         }
       },
       {
+        "id": "not_tired",
+        "text": "low",
+        "color": "light_gray",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "fatigue" }, "<=", { "const": 191 } ] }
+          ]
+        }
+      },
+      {
         "id": "dead_tired",
         "text": "high",
         "color": "light_red",
