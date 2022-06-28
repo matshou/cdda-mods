@@ -12,7 +12,7 @@
     "material": [ "cardboard" ],
     "symbol": ",",
     "color": "red",
-    "flags": [ "NO_REPAIR" ],
+    "flags": [ "NO_REPAIR", "ALLOWS_REMOTE_USE" ],
     "use_action": [ "PLAY_GAME" ]
   }
 ]
