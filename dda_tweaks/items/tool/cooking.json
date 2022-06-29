@@ -1,0 +1,50 @@
+[
+  {
+    "id": "coffeemaker",
+    "type": "TOOL",
+    "name": { "str": "coffeemaker" },
+    "description": "This is a heating element with pot and frame for holding coffee or other powders.  It's got a battery compartment for use when the power goes out.  You can use it to make coffee, or other drinks if you so choose.",
+    "weight": "1000 g",
+    "volume": "7 L",
+    "longest_side": "25 cm",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "ammo": [ "battery" ],
+    "flags": [ "WATER_BREAK", "ALLOWS_REMOTE_USE" ],
+    "charges_per_use": 10,
+    "qualities": [ [ "BOIL", 1 ] ],
+    "use_action": [ "HOTPLATE" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_MEDIUM" ],
+        "default_magazine": "medium_battery_cell"
+      }
+    ]
+  },
+  {
+    "id": "clay_pot",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "clay pot" },
+    "description": "A crude clay pot with lid used for cooking.",
+    "weight": "480 g",
+    "volume": "2100 ml",
+    "price": 2500,
+    "price_postapoc": 10,
+    "bashing": 1,
+    "material": [ "clay" ],
+    "symbol": ")",
+    "color": "brown",
+    "pocket_data": [ { "max_contains_volume": "2 L", "max_contains_weight": "2100 g", "spoil_multiplier": 0.8, "watertight": true, "rigid": true } ],
+    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
+    "use_action": [ "HEAT_FOOD" ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  }
+]
