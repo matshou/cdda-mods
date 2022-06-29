@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bc_sidebar",
+    "name": "Better Custom Sidebar",
+    "authors": [ "matshou" ],
+    "description": "Adds new widgets and improves custom sidebar layout.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

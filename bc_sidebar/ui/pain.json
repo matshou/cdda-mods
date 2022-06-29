@@ -1,0 +1,94 @@
+[
+  {
+    "id": "pain_desc_template",
+    "type": "widget",
+    "style": "clause",
+    "clauses": [
+      {
+        "id": "no_pain",
+        "text": "none",
+        "color": "light_gray",
+        "condition": { "compare_int": [ { "u_val": "pain" }, "<=", { "const": 0 } ] }
+      },
+      {
+        "id": "mild_pain",
+        "text": "mild",
+        "color": "light_gray",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 0 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 10 } ] }
+          ]
+        }
+      },
+      {
+        "id": "minor_pain",
+        "text": "minor",
+        "color": "light_gray",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 10 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 20 } ] }
+          ]
+        }
+      },
+      {
+        "id": "distracting_pain",
+        "text": "distracting",
+        "color": "yellow",
+                "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 20 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 30 } ] }
+          ]
+        }
+      },
+      {
+        "id": "moderate_pain",
+        "text": "moderate",
+        "color": "yellow",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 30 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 60 } ] }
+          ]
+        }
+      },
+      {
+        "id": "severe_pain",
+        "text": "severe",
+        "color": "light_red",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 60 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 70 } ] }
+          ]
+        }
+      },
+      {
+        "id": "intense_pain",
+        "text": "intense",
+        "color": "red",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "pain" }, ">", { "const": 70 } ] },
+            { "compare_int": [ { "u_val": "pain" }, "<", { "const": 80 } ] }
+          ]
+        }
+      },
+      {
+        "id": "excrutiating_pain",
+        "text": "excrutiating",
+        "color": "red",
+        "condition": { "compare_int": [ { "u_val": "pain" }, ">=", { "const": 80 } ] }
+      }
+    ]
+  },
+  {
+    "id": "pain_desc_label",
+    "type": "widget",
+    "label": "Pain",
+    "style": "text",
+    "copy-from": "pain_desc_template"
+  }
+]

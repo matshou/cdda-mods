@@ -1,0 +1,13 @@
+[
+  {
+    "id": "weariness_graph",
+    "type": "widget",
+    "label": "Weariness",
+    "var": "weariness_level",
+    "style": "graph",
+    "fill": "pool",
+    "width": 5,
+    "symbols": ".\\|",
+    "colors": [ "c_white", "c_yellow", "c_red" ]
+  }
+]

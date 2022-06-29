@@ -1,0 +1,76 @@
+[
+  {
+    "id": "body_temp_template",
+    "type": "widget",
+    "style": "clause",
+    "clauses": [
+      {
+        "id": "scorching",
+        "color": "red",
+        "condition": { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 9500 } ] }
+      },
+      {
+        "id": "very_hot",
+        "color": "light_red",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 9500 } ] },
+            { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 8000 } ] }
+          ]
+        }
+      },
+      {
+        "id": "warm",
+        "color": "yellow",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 8000 } ] },
+            { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 6500 } ] }
+          ]
+        }
+      },
+      {
+        "id": "comfortable",
+        "color": "green",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 6500 } ] },
+            { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 3500 } ] }
+          ]
+        }
+      },
+      {
+        "id": "chilly",
+        "color": "light_blue",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 3500 } ] },
+            { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 2000 } ] }
+          ]
+        }
+      },
+      {
+        "id": "very_cold",
+        "color": "cyan",
+        "condition": {
+          "and": [
+            { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 2000 } ] },
+            { "compare_int": [ { "u_val": "body_temp" }, ">", { "const": 500 } ] }
+          ]
+        }
+      },
+      {
+        "id": "freezing",
+        "color": "blue",
+        "condition": { "compare_int": [ { "u_val": "body_temp" }, "<=", { "const": 500 } ] }
+      }
+    ]
+  },
+  {
+    "id": "body_temp_desc",
+    "type": "widget",
+    "label": "Heat",
+    "style": "text",
+    "copy-from": "body_temp_template"
+  }
+]
